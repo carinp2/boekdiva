@@ -2006,7 +2006,7 @@
   -webkit-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
 }
-@-webkit-keyframes fadeInUp {
+@-webkit-keyframes fadeIn {
   from {
     opacity: 0;
     -webkit-transform: translateY(150px);
@@ -2033,10 +2033,10 @@
   }
 }
 .animate__fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
-@-webkit-keyframes fadeInUpBig {
+@-webkit-keyframes fadeInBig {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 2000px, 0);
@@ -2049,7 +2049,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
-@keyframes fadeInUpBig {
+@keyframes fadeInBig {
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 2000px, 0);
@@ -2063,8 +2063,8 @@
   }
 }
 .animate__fadeInUpBig {
-  -webkit-animation-name: fadeInUpBig;
-  animation-name: fadeInUpBig;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 @-webkit-keyframes fadeInTopLeft {
   from {

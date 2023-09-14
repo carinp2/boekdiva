@@ -13,13 +13,17 @@
         <meta name="description" content="Die nuutste publikasies van Boekdiva Uitgewers, 'n uitgewery vir kontemporêre Afrikaanse skryfwerk, is op hierdie blad te sien.">
 
         <title>Boekdiva Uitgewers</title>
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-        <link rel="stylesheet" href="assets/animatecss/animate.css">
+<!--        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">-->
+<!--        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">-->
+<!--        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!--        <link rel="stylesheet" href="assets/animatecss/animate.css">-->
         <link rel="stylesheet" href="assets/dropdown/css/style.css">
         <link rel="stylesheet" href="assets/socicon/css/styles.css">
         <link rel="stylesheet" href="assets/theme/css/style.css">
+        <script src='assets/jquery/jquery-3.7.1.min.js'></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!--        <script src='assets/bootstrap/js/bootstrap.bundle.min.js'></script>-->
         <link rel="preload"
               href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
               as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -52,7 +56,7 @@
 
           gtag('config', 'G-N30QYTBGEQ');
         </script>
-    <body>
+    <body onload="$('#carouselExampleControls').carousel();">
 
     <section data-bs-version="5.1" class="menu menu1 top-menu-class" once="menu" id="menu1-1">
         <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -85,18 +89,96 @@
         </nav>
     </section>
 
-    <section class="header-class" id="header1-0">
-        <img src="assets/images/Heimwee.jpg" alt="Heinwee">
+<!--    <section class="header-class" id="header1-0">-->
+<!--        <img src="assets/images/Heimwee.jpg" alt="Heinwee">-->
+<!--    </section>-->
+
+    <section class="header-class slider1" id="header1-0">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000" data-bs-interval="4000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="item-wrapper">
+                        <img src="assets/images/books/DieperAsDrome.jpg" alt="Dieper as Drome" class='animate__fadeIn'>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="item-wrapper">
+                        <img src="assets/images/books/Heimwee.jpg" alt="Heinwee" class='animate__fadeIn'>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev mbr-bold" href="#carouselExampleControls" role="button" data-slide="prev" data-bs-slide="prev" >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next mbr-bold" href="#carouselExampleControls" role="button" data-slide="next" data-bs-slide="next" >
+                <span class="carousel-control-next-icon bb" aria-hidden="true"></span>
+            </a>
+        </div>
+    </section>
+
+
+    <section data-bs-version="5.1" class="features6 feature-book-class" id="features7-7">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg">
+<!--                    <h1 class="d-none">Boekdiva Uitgewers</h1>-->
+<!--                    <h2 class="d-none">Die nuutste publikasies van Boekdiva Uitgewers, 'n uitgewery vir kontemporêre Afrikaanse skryfwerk, is op hierdie blad te sien.</h2>-->
+                    <figure class="figure float-start m-4">
+                        <img src="assets/images/books/DieperAsDrome_omslag.jpg" class="shadow" alt="Dieper as Drome">
+                    </figure>
+                    <h5 class="mbr-title mbr-fonts-style display-2 mt-3">Dieper as Drome</h5>
+                    <p class="mbr-text mbr-fonts-style display-7 text-start">
+                        Marcus Moore, half-Iers, roep sy armoedige ouerhuis in Skotland vaarwel toe ná 'n gewelddadige voorval.
+                        Sy oë is vol blink klippies en hy klim op 'n skip na Suid-Afrika. Sy droombestemming is die diggings in Kimberley en later die woelige Goudstad.
+                        Hy is nie alleen nie: die myne wemel van dromers. Hy leer legendariese fortuinsoekers, swendelaars en selfgemaakte magnate soos Barney Barnato,
+                        ken. Hy skuur ook skouers met historiese figure soos Olive Schreiner, Cecil John Rhodes en Paul Kruger.<br><br>
+                        <span class="fw-bold fs-4"><i>Dieper as Drome</i></span> handel oor 'n
+                        fassinerende tyd in ons geskiedenis en die verhoog is wyd – dit wemel van aksie en drama. Oor alles val die skadu van die Empaaier. Daar is
+                        ook 'n tydlose liefdesverhaal aan die hart van hierdie roman. Dit is goed nagevorsde, lekkerleesfiksie in die tradisie van Lerina Erasmus en
+                        Wilbur Smith, oor 'n tyd toe edelstene dieper as drome gelê het.
+                    </p>
+                    <div class="mbr-section-btn pt-3 float-end pe-5"><a href="read.php?id=9780639779546" class="btn btn-warning btn-sm display-4">Lees uittreksel</a></div>
+                </div>
+            </div>
+            <div class="row border-top mt-2 pb-2 pt-2 ps-5">
+                <div class="col-12 col-md-4 mbr-text mbr-fonts-style display-7 text-left">
+                    <b>ISBN</b>: 9780639779546
+                </div>
+                <div class="col-12 col-md-4 mbr-text mbr-fonts-style display-7 text-left">
+                    <b>Prys</b>: R350
+                </div>
+                <div class="col-12 col-md-4 mbr-text mbr-fonts-style display-7 text-left">
+                    <b>Publikasie datum</b>: Augustus 2023
+                </div>
+<!--            </div>-->
+<!--            <div class="row border-top border-bottom border-top mt-2 pb-2 pt-2 ps-5">-->
+                <div class="col-12 col-md-4 mbr-text mbr-fonts-style display-7 text-left">
+                    <b>Uitgewer</b>: Boekdiva Uitgewers
+                </div>
+                <div class="col-12 col-md-4 mbr-text mbr-fonts-style display-7 text-left">
+                    <b>Formaat</b>: Sagteband 230mm x 152mm
+                </div>
+                <div class="col-12 col-md-4 mbr-text mbr-fonts-style display-7 text-left">
+                    <b>Bladsye</b>: 240
+                </div>
+            </div>
+            <div class="row ps-5 border-top">
+                <div class="col-12">
+                    <div class="mbr-section-btn pt-3">
+                        <a href="https://www.graffitiboeke.co.za/af/390222/Boeke" target="_blank" class="btn btn-primary display-4">Koop nou - Graffiti Boeke</a>
+                        <a href="https://www.wordsworth.co.za/products/dieper-as-drome-trade-paperback?variant=43249042620594 " target="_blank" class="btn btn-primary display-4">Koop nou - Wordsworth Books</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section data-bs-version="5.1" class="features6 feature-book-class" id="features7-7">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg">
-                    <h1 class="d-none">Boekdiva Uitgewers</h1>
-                    <h2 class="d-none">Die nuutste publikasies van Boekdiva Uitgewers, 'n uitgewery vir kontemporêre Afrikaanse skryfwerk, is op hierdie blad te sien.</h2>
-                    <figure class="figure float-start m-4">
-                        <img src="assets/images/Heimwee_omslag.jpg" class="shadow" alt="Heimwee">
+                    <figure class="figure float-end m-4">
+                        <img src="assets/images/books/Heimwee_omslag.jpg" class="shadow" alt="Heimwee">
                     </figure>
                     <h5 class="mbr-title mbr-fonts-style display-2 mt-3">Heimwee</h5>
                     <p class="mbr-text mbr-fonts-style display-7 text-start">
@@ -112,7 +194,7 @@
                     dis ook ŉ storie van heling. Boweal is dit die storie van moederskap, van die verskriklike prys wat dit soms vra, en van ma's wat
                     bo-oor die ewigheid sal reik om seker te maak hulle kinders is geborge.
                     </p>
-                    <div class="mbr-section-btn pt-3 float-end pe-5"><a href="read.php" class="btn btn-warning btn-sm display-4">Lees uittreksel</a></div>
+                    <div class="mbr-section-btn pt-3 float-end pe-5"><a href="read.php?id=9780639704494" class="btn btn-warning btn-sm display-4">Lees uittreksel</a></div>
 <!--                    <div class="mbr-section-btn pt-3"><a href="https://www.graffitibooks.co.za/af/386821/Boeke" target="_blank" class="btn btn-primary display-4">Koop nou</a></div>-->
                 </div>
             </div>
