@@ -917,6 +917,7 @@ blockquote {
 .card-wrapper,
 .item-wrapper {
   overflow: hidden;
+  width: 100%;
 }
 
 .app-video-wrapper > img {
